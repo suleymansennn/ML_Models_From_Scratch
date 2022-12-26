@@ -57,3 +57,17 @@ Define a function for building the decision tree by recursively splitting the da
 Define a function for making predictions using the decision tree, which involves traversing the tree and making a prediction based on the values of the features at each node.
 
 ![Decision-Tree-Diagram-Example-MindManager-Blog](https://user-images.githubusercontent.com/83352965/209564357-a7259ea7-71fa-4fac-bb35-9b7284ad9f8e.png)
+
+## Random Forest
+
+Random forest is an ensemble machine learning algorithm that is used for classification and regression. It is called a "random forest" because it is made up of a large number of individual decision trees, which are trained using bootstrapped samples of the data and a random subset of the features. The individual decision trees in the random forest make predictions, and the final prediction is made by taking the majority vote or the average of the predictions of the individual trees.
+
+One of the main advantages of random forests is that they are able to handle large and high-dimensional datasets, and they are relatively resistant to overfitting. This is because the individual decision trees are trained on different subsets of the data and a different subset of the features, which helps to reduce the variance of the model.
+
+Another advantage of random forests is that they are easy to use and implement, and they often provide good performance out-of-the-box. They also have a number of hyperparameters that can be tuned to improve their performance, such as the number of decision trees in the forest and the maximum depth of the trees.
+
+One potential disadvantage of random forests is that they can be slow to train and predict, especially for very large datasets, because they involve training and predicting with many decision trees. However, this can be mitigated by using parallel processing or using decision trees with shallower depths.
+
+Overall, random forests are a powerful and popular machine learning algorithm that are widely used in a variety of applications, including image and speech recognition, natural language processing, and finance. They are relatively easy to use and can provide good performance on a wide range of datasets.
+
+![random-forest-diagram](https://user-images.githubusercontent.com/83352965/209564518-ffdc43e3-4503-4724-b5fc-51b0624b79e0.svg)
